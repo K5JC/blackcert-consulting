@@ -6,9 +6,9 @@ import { useEffect } from 'react'
 export default function BookingLanding() {
   useEffect(() => {
     // Fire LinkedIn Insight Tag pixel on this page
-    if ((window as any).lintrk) {
-      window.lintrk('track', { conversion_id: 'booking-landing' })
-    }
+if ((window as any).lintrk) {
+  (window as any).lintrk('track', { conversion_id: 'booking-landing' })
+}
   }, [])
 
   return (
