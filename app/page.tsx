@@ -295,7 +295,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-500 text-sm">
-            <p>BlackCert © 2025. All rights reserved.</p>
+           <p>BlackCert © {new Date().getFullYear()}. All rights reserved.</p>
           </div>
         </div>
       </footer>
