@@ -10,10 +10,11 @@ export default function Home() {
   <img src="/Logo.png" alt="BlackCert" className="h-8 invert brightness-110" />
 </div>
           <div className="flex gap-8 text-sm">
-            <a href="#services" className="text-slate-400 hover:text-white transition">Services</a>
-            <a href="#about" className="text-slate-400 hover:text-white transition">About</a>
-            <a href="#contact" className="text-slate-400 hover:text-white transition">Contact</a>
-          </div>
+  <a href="/resources" className="text-slate-400 hover:text-white transition">Resources</a>
+  <a href="#services" className="text-slate-400 hover:text-white transition">Services</a>
+  <a href="#about" className="text-slate-400 hover:text-white transition">About</a>
+  <a href="#contact" className="text-slate-400 hover:text-white transition">Contact</a>
+</div>
         </div>
       </nav>
 
