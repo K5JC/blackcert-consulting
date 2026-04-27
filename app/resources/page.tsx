@@ -6,9 +6,11 @@ export default function Resources() {
       {/* Navigation */}
       <nav className="border-b border-slate-800 bg-slate-950/50 backdrop-blur sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold tracking-tight">
-            <img src="/Logo.png" alt="BlackCert" className="h-8 invert brightness-110" />
-          </div>
+         <Link href="/">
+  <div className="text-2xl font-bold tracking-tight cursor-pointer">
+    <img src="/Logo.png" alt="BlackCert" className="h-9 invert brightness-125" />
+  </div>
+</Link>
           <div className="flex gap-8 text-sm">
             <Link href="/#services" className="text-slate-400 hover:text-white transition">Services</Link>
             <Link href="/#about" className="text-slate-400 hover:text-white transition">About</Link>
