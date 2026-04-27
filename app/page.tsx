@@ -7,8 +7,8 @@ export default function Home() {
       <nav className="border-b border-slate-800 bg-slate-950/50 backdrop-blur sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold tracking-tight">
-            <span className="text-white">BlackCert</span>
-          </div>
+  <img src="/logo.png" alt="BlackCert" className="h-8" />
+</div>
           <div className="flex gap-8 text-sm">
             <a href="#services" className="text-slate-400 hover:text-white transition">Services</a>
             <a href="#about" className="text-slate-400 hover:text-white transition">About</a>
